@@ -30,7 +30,7 @@
         };
 
         new_combo {
-            bindings = <&kp LC(C)>;
+            bindings = <&kp LCTRL>;
             key-positions = <20 21>;
             timeout-ms = <400>;
         };
@@ -65,28 +65,28 @@
 
         default_layer {
             bindings = <
-  &kp Q   &kp W   &kp E             &kp R            &kp T        &kp Y        &kp U      &kp I    &kp O      &kp P
-  &kp A   &kp S   &kp D             &kp F            &kp G        &kp H        &kp J      &kp K    &kp L   &kp APOS
-  &kp Z   &kp X   &kp C             &kp V            &kp B        &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+  &kp Q   &kp W   &kp E             &kp R            &kp T        &kp Y        &kp U      &kp I    &kp O              &kp P
+  &kp A   &kp S   &kp D             &kp F            &kp G        &kp H        &kp J      &kp K    &kp L  &kp DOUBLE_QUOTES
+  &kp Z   &kp X   &kp C             &kp V            &kp B        &kp N        &kp M  &kp COMMA  &kp DOT          &kp SLASH
                          &mt LSHIFT LC(Z)  &lt 1 BACKSPACE  &lt 2 SPACE  &lt 3 ENTER
             >;
         };
 
         left_layer {
             bindings = <
- &kp NUMBER_1  &kp NUMBER_2     &kp NUMBER_3     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
-      &kp TAB     &kp LC(S)          &kp DQT        &kp PIPE2      &kp HASH     &kp MINUS       &kp EQL      &kp LBKT      &kp RBKT  &kp SEMICOLON
-      &kp ESC     &kp TILDE  &kp NON_US_BSLH  &kp NON_US_HASH    &kp TILDE2     &kp MINUS     &kp GRAVE      &kp LBKT      &kp RBKT        &kp DEL
-                                                        &mo 1      &kp LGUI      &kp RGUI         &mo 2
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+     &kp PLUS     &kp MINUS     &kp EQUAL        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+    &kp SLASH  &kp ASTERISK        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+                                                 &trans        &trans        &trans        &trans
             >;
         };
 
         right_layer {
             bindings = <
- &kp EXCL   &kp ATSN  &kp HASH  &kp DLLR  &kp PRCT   &kp CRRT      &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS   &kp RPRN
- &kp HASH  &kp QMARK  &kp FSLH  &kp COLN  &kp SCLN  &kp MINUS  &kp KP_EQUAL      &kp LEFT_BRACKET      &kp RIGHT_BRACKET   &kp SEMI
- &kp LSFT   &kp KPLS  &kp LBKT  &kp RBKT  &kp BSLH  &kp UNDER      &kp LEFT              &kp DOWN                 &kp UP  &kp RIGHT
-                                   &mo 3  &kp LCTL    &kp SPC         &mo 2
+ &kp EXCL     &kp AT  &kp HASH  &kp DLLR  &kp PERCENT  &kp CARET  &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
+ &kp HASH  &kp QMARK  &kp FSLH    &trans       &trans     &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp COLON
+   &trans     &trans    &trans    &trans       &trans     &trans  &kp LEFT              &kp DOWN                 &kp UP  &kp RIGHT
+                                  &trans       &trans     &trans    &trans
             >;
         };
 
