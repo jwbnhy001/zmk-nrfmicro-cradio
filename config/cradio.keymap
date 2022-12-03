@@ -82,9 +82,9 @@
 
         right_layer {
             bindings = <
- &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp CARET  &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
-     &kp EXCL        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT     &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp COLON
-       &trans        &trans        &trans        &trans        &trans     &trans  &kp LEFT              &kp DOWN                 &kp UP  &kp RIGHT
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp CARET  &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp GRAVE
+     &kp EXCL        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT     &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp COLON
+       &trans        &trans        &trans        &trans        &trans     &trans    &trans                &trans                 &trans  &kp QUESTION
                                                  &trans        &trans     &trans    &trans
             >;
         };
