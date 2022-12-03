@@ -74,7 +74,7 @@
         left_layer {
             bindings = <
  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-     &kp PLUS     &kp MINUS     &kp EQUAL        &trans        &trans        &trans        &trans        &trans        &trans        &trans
+    &kp EQUAL     &kp MINUS      &kp PLUS        &trans        &trans        &trans        &trans        &trans        &trans        &trans
     &kp SLASH  &kp ASTERISK        &trans        &trans        &trans        &trans        &trans        &trans        &trans        &trans
                                                  &trans        &trans        &trans        &trans
             >;
@@ -82,19 +82,19 @@
 
         right_layer {
             bindings = <
- &kp EXCL     &kp AT  &kp HASH  &kp DLLR  &kp PERCENT  &kp CARET  &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
- &kp HASH  &kp QMARK  &kp FSLH    &trans       &trans     &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp COLON
-   &trans     &trans    &trans    &trans       &trans     &trans  &kp LEFT              &kp DOWN                 &kp UP  &kp RIGHT
-                                  &trans       &trans     &trans    &trans
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp CARET  &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp GRAVE
+     &kp EXCL        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT     &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp COLON
+       &trans        &trans        &trans        &trans        &trans     &trans  &kp LEFT              &kp DOWN                 &kp UP  &kp RIGHT
+                                                 &trans        &trans     &trans    &trans
             >;
         };
 
         tri_layer {
             bindings = <
- &kp GRAVE  &kp AT  &kp HASH            &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp MINUS  &kp EQUAL
-    &kp F1  &kp F2    &kp F3                &kp F4       &kp F5     &trans    &trans        &trans     &trans     &trans
-    &trans  &trans    &trans                &trans       &trans     &trans    &trans        &trans     &trans     &trans
-                              &mt LSHIFT BACKSPACE       &trans     &trans    &trans
+ &kp GRAVE     &kp AT  &kp HASH            &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp MINUS      &kp EQUAL
+    &kp F1  &kp LC(S)    &kp F3             &kp LC(F)       &kp F5     &trans    &trans        &trans     &trans  &kp SEMICOLON
+    &trans     &trans    &trans                &trans       &trans     &trans    &trans        &trans     &trans         &trans
+                                 &mt LSHIFT BACKSPACE       &trans     &trans    &trans
             >;
         };
     };
