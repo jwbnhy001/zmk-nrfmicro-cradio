@@ -6,7 +6,6 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
 
 &mt {
     //  flavor = "tap-preferred";
@@ -27,28 +26,6 @@
             timeout-ms = <50>;
             key-positions = <10 11>;
             bindings = <&kp TAB>;
-        };
-
-        new_combo {
-            bindings = <&kp LSHFT>;
-            key-positions = <18 19>;
-            timeout-ms = <null>;
-        };
-
-        new_combo {
-            bindings = <&kp RET>;
-            key-positions = <17 16>;
-            timeout-ms = <50>;
-        };
-
-        new_combo {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <30 31>;
-        };
-
-        new_combo {
-            bindings = <&kp LS(LCTRL)>;
-            key-positions = <10 20>;
         };
     };
 
@@ -84,10 +61,10 @@
 
         tri_layer {
             bindings = <
-  &kp GRAVE      &kp AT    &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp MINUS  &kp EQUAL
-     &kp F1      &kp F2      &kp F3      &kp F4       &kp F5     &trans    &trans        &trans     &trans   &kp APOS
- &bt BT_CLR  &bt BT_NXT  &bt BT_PRV      &trans       &trans     &trans    &trans        &trans     &trans     &trans
-                                         &trans       &trans     &trans    &trans
+ &kp GRAVE  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp MINUS  &kp EQUAL
+    &kp F1  &kp F2    &kp F3      &kp F4       &kp F5     &trans    &trans        &trans     &trans   &kp APOS
+    &trans  &trans    &trans      &trans       &trans     &trans    &trans        &trans     &trans     &trans
+                                  &trans       &trans     &trans    &trans
             >;
         };
     };
