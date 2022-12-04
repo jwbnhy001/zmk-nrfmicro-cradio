@@ -31,7 +31,7 @@
         new_combo {
             bindings = <&kp LSHFT>;
             key-positions = <18 19>;
-            timeout-ms = <undefined>;
+            timeout-ms = <null>;
         };
 
         new_combo {
