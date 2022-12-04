@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
 
 &mt {
     //  flavor = "tap-preferred";
@@ -73,10 +74,10 @@
 
         tri_layer {
             bindings = <
- &kp GRAVE  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp MINUS  &kp EQUAL
-    &kp F1  &kp F2    &kp F3      &kp F4       &kp F5     &trans    &trans        &trans     &trans   &kp APOS
-    &trans  &trans    &trans      &trans       &trans     &trans    &trans        &trans     &trans     &trans
-                                  &trans       &trans     &trans    &trans
+  &kp GRAVE      &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp MINUS  &kp EQUAL
+     &kp F1      &kp F2    &kp F3      &kp F4       &kp F5     &trans    &trans        &trans     &trans   &kp APOS
+ &bt BT_NXT  &bt BT_PRV    &trans      &trans       &trans     &trans    &trans        &trans     &trans     &trans
+                                       &trans       &trans     &trans    &trans
             >;
         };
     };
