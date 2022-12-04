@@ -83,10 +83,10 @@
 
         tri_layer {
             bindings = <
- &kp GRAVE     &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp MINUS  &kp EQUAL
-    &kp F1  &kp LC(S)    &kp F3   &kp LC(F)       &kp F5     &trans    &trans        &trans     &trans   &kp APOS
-    &trans     &trans    &trans      &trans       &trans     &trans    &trans        &trans     &trans     &trans
-                                     &trans       &trans     &trans    &trans
+ &kp GRAVE  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPS  &kp ASTERISK  &kp MINUS  &kp EQUAL
+    &kp F1  &kp F2    &kp F3      &kp F4       &kp F5     &trans    &trans        &trans     &trans   &kp APOS
+    &trans  &trans    &trans      &trans       &trans     &trans    &trans        &trans     &trans     &trans
+                                  &trans       &trans     &trans    &trans
             >;
         };
     };
