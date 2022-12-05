@@ -30,18 +30,6 @@
         };
 
         new_combo {
-            bindings = <&kp ENTER>;
-            key-positions = <17 16>;
-            timeout-ms = <undefined>;
-        };
-
-        new_combo {
-            bindings = <&kp LSHFT>;
-            key-positions = <18 19>;
-            timeout-ms = <undefined>;
-        };
-
-        new_combo {
             bindings = <&mo 4>;
             key-positions = <23 24>;
         };
