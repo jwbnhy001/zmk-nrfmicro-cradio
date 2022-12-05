@@ -31,19 +31,19 @@
 
         new_combo {
             bindings = <&kp ENTER>;
-            key-positions = <16 17>;
-            timeout-ms = <50>;
+            key-positions = <17 16>;
+            timeout-ms = <undefined>;
         };
 
         new_combo {
             bindings = <&kp LSHFT>;
-            key-positions = <20 21>;
-            timeout-ms = <50>;
+            key-positions = <18 19>;
+            timeout-ms = <undefined>;
         };
 
         new_combo {
             bindings = <&mo 4>;
-            key-positions = <31 30>;
+            key-positions = <23 24>;
         };
     };
 
@@ -52,10 +52,10 @@
 
         default_layer {
             bindings = <
-  &kp Q   &kp W   &kp E      &kp R            &kp T        &kp Y                 &kp U      &kp I    &kp O              &kp P
-  &kp A   &kp S   &kp D      &kp F            &kp G        &kp H                 &kp J      &kp K    &kp L  &kp DOUBLE_QUOTES
-  &kp Z   &kp X   &kp C      &kp V            &kp B        &kp N                 &kp M  &kp COMMA  &kp DOT          &kp SLASH
-                         &lt 3 ESC  &lt 1 BACKSPACE  &lt 2 SPACE  &mt LEFT_SHIFT ENTER
+  &kp Q   &kp W   &kp E               &kp R            &kp T        &kp Y        &kp U      &kp I    &kp O              &kp P
+  &kp A   &kp S   &kp D               &kp F            &kp G        &kp H        &kp J      &kp K    &kp L  &kp DOUBLE_QUOTES
+  &kp Z   &kp X   &kp C               &kp V            &kp B        &kp N        &kp M  &kp COMMA  &kp DOT          &kp SLASH
+                         &mt LEFT_SHIFT ESC  &lt 1 BACKSPACE  &lt 2 SPACE  &lt 3 ENTER
             >;
         };
 
@@ -70,10 +70,10 @@
 
         right_layer {
             bindings = <
- &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp CARET  &kp AMPS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp GRAVE
-     &kp EXCL        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT     &trans    &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp COLON
-       &trans        &trans        &trans        &trans        &trans     &trans    &trans                &trans                 &trans  &kp QUESTION
-                                                 &trans        &trans     &trans    &trans
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp GRAVE
+     &kp EXCL        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT  &trans  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp COLON
+       &trans        &trans        &trans        &trans        &trans  &trans  &trans         &kp LESS_THAN       &kp GREATER_THAN  &kp QUESTION
+                                                 &trans        &trans  &trans  &trans
             >;
         };
 
@@ -86,11 +86,11 @@
             >;
         };
 
-        Layer__4 {
+        bluetooth_set {
             bindings = <
  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans
        &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
-   &bt BT_NXT    &bt BT_PRV    &bt BT_CLR        &trans        &trans  &trans  &trans  &trans  &trans  &trans
+       &trans        &trans    &bt BT_CLR        &trans        &trans  &trans  &trans  &trans  &trans  &trans
                                                  &trans        &trans  &trans  &trans
             >;
         };
