@@ -33,6 +33,16 @@
             bindings = <&mo 4>;
             key-positions = <23 24>;
         };
+
+        new_combo {
+            bindings = <&kp ENTER>;
+            key-positions = <16 17>;
+        };
+
+        new_combo {
+            bindings = <&kp LSHFT>;
+            key-positions = <18 19>;
+        };
     };
 
     keymap {
