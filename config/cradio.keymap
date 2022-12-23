@@ -31,7 +31,7 @@
 
         new_combo {
             bindings = <&mo 4>;
-            key-positions = <23 24>;
+            key-positions = <24 14>;
         };
 
         new_combo {
@@ -60,7 +60,7 @@
         left_layer {
             bindings = <
  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-    &kp LC(A)     &kp LC(S)        &trans     &kp LC(F)        &trans        &trans      &kp PLUS     &kp MINUS     &kp EQUAL      &kp SEMI
+    &kp LC(A)     &kp LC(S)        &trans     &kp LC(F)        &trans        &trans     &kp EQUAL      &kp PLUS     &kp MINUS      &kp SEMI
     &kp LC(Z)     &kp LC(X)     &kp LC(C)     &kp LC(V)        &trans        &trans        &trans        &trans        &trans        &trans
                                                  &trans        &trans        &trans        &trans
             >;
