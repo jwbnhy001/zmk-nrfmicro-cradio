@@ -31,12 +31,7 @@
 
         new_combo {
             bindings = <&mo 4>;
-            key-positions = <24 14>;
-        };
-
-        new_combo {
-            bindings = <&kp ENTER>;
-            key-positions = <16 17>;
+            key-positions = <30 31>;
         };
 
         new_combo {
