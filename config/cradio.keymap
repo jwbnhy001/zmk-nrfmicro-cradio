@@ -30,12 +30,6 @@
         };
 
         new_combo {
-            bindings = <&mo 4>;
-            key-positions = <30 31 32 33>;
-            timeout-ms = <50>;
-        };
-
-        new_combo {
             bindings = <&kp LSHFT>;
             key-positions = <16 17>;
         };
@@ -67,7 +61,7 @@
  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp GRAVE
      &kp EXCL        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT  &trans  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp COLON
        &trans        &trans        &trans        &trans        &trans  &trans  &trans         &kp LESS_THAN       &kp GREATER_THAN  &kp QUESTION
-                                                 &trans        &trans  &trans  &trans
+                                                 &trans        &trans  &trans   &mo 4
             >;
         };
 
