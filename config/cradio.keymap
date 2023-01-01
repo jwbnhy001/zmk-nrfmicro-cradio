@@ -32,6 +32,7 @@
         new_combo {
             bindings = <&mo 4>;
             key-positions = <30 31>;
+            timeout-ms = <50>;
         };
 
         new_combo {
