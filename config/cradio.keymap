@@ -25,23 +25,18 @@
 
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <12 13>;
-            bindings = <&kp TAB>;
-        };
-
-        new_combo {
-            bindings = <&kp ENTER>;
-            key-positions = <18 19>;
-        };
-
-        new_combo {
-            bindings = <&kp LSHIFT>;
             key-positions = <10 11>;
+            bindings = <&kp TAB>;
         };
 
         new_combo {
             bindings = <&mo 4>;
             key-positions = <30 31>;
+        };
+
+        new_combo {
+            bindings = <&kp LCTRL>;
+            key-positions = <32 33>;
         };
     };
 
@@ -71,7 +66,7 @@
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5  &trans  &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp GRAVE
     &kp EXCL        &kp AT      &kp HASH    &kp DOLLAR   &kp PERCENT  &trans  &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &kp COLON
       &trans        &trans        &trans        &trans        &trans  &trans  &trans         &kp LESS_THAN       &kp GREATER_THAN  &kp QUESTION
-                                                &trans        &trans  &trans   &mo 4
+                                                &trans        &trans  &trans  &trans
             >;
         };
 
