@@ -118,10 +118,10 @@
 
         solidworks {
             bindings = <
-&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp NUMBER_4        &kp N5  &kp NUMBER_6                  &kp MINUS  &trans  &trans  &trans  &trans  &trans
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                    &kp DOT  &trans  &trans  &trans  &trans  &trans
-                                        &macro_1  &mt LEFT_CONTROL NUMBER_0   &mo 1  &trans
+        &trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9        &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &kp NUMBER_4        &kp N5  &kp NUMBER_6       &kp DOT  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &trans  &trans  &trans  &trans  &trans
+                                                &macro_1     &kp SPACE   &mo 1  &trans
             >;
         };
     };
