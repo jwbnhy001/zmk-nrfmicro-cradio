@@ -29,17 +29,17 @@
             bindings = <&kp TAB>;
         };
 
-        new_combo {
+        c3 {
             bindings = <&mo 4>;
             key-positions = <30 31>;
         };
 
-        new_combo {
+        c4 {
             bindings = <&kp ENTER>;
             key-positions = <8 9>;
         };
 
-        new_combo {
+        c5 {
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <31 32>;
         };
@@ -90,15 +90,6 @@
       &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
       &trans        &trans    &bt BT_CLR        &trans        &trans  &trans  &trans  &trans  &trans  &trans
                                                 &trans        &trans  &trans  &trans
-            >;
-        };
-
-        Layer__5 {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans
             >;
         };
     };
