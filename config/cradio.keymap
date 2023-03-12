@@ -30,18 +30,23 @@
         };
 
         c3 {
-            bindings = <&mo 4>;
+            bindings = <&tog 5>;
             key-positions = <30 31>;
         };
 
         c4 {
             bindings = <&kp ENTER>;
-            key-positions = <8 9>;
+            key-positions = <19 18>;
         };
 
         c5 {
             bindings = <&kp LEFT_SHIFT>;
-            key-positions = <31 32>;
+            key-positions = <20 21>;
+        };
+
+        c6 {
+            bindings = <&tog 4>;
+            key-positions = <9 29>;
         };
     };
 
@@ -88,8 +93,17 @@
             bindings = <
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans  &trans  &trans  &trans  &trans
       &trans        &trans        &trans        &trans        &trans  &trans  &trans  &trans  &trans  &trans
-      &trans        &trans    &bt BT_CLR        &trans        &trans  &trans  &trans  &trans  &trans  &trans
+      &trans        &reset    &bt BT_CLR        &trans        &trans  &trans  &trans  &trans  &trans  &trans
                                                 &trans        &trans  &trans  &trans
+            >;
+        };
+
+        solidworks {
+            bindings = <
+&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_4        &kp N5  &kp NUMBER_6                  &kp MINUS  &trans  &trans  &trans  &trans  &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3                    &kp DOT  &trans  &trans  &trans  &trans  &trans
+                                       &kp SPACE  &mt LEFT_CONTROL NUMBER_0  &trans  &trans
             >;
         };
     };
