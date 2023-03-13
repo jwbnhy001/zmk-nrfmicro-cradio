@@ -31,7 +31,7 @@
 
         c3 {
             bindings = <&to 5>;
-            key-positions = <31 0>;
+            key-positions = <31 30>;
         };
 
         c4 {
