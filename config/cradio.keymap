@@ -30,7 +30,7 @@
         };
 
         c3 {
-            bindings = <&tog 5>;
+            bindings = <&to 5>;
             key-positions = <31 0>;
         };
 
