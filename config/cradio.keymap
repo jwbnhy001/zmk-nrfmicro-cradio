@@ -53,6 +53,12 @@
             bindings = <&mo 4>;
             key-positions = <9 29>;
         };
+
+        c8 {
+            bindings = <&to 0>;
+            key-positions = <15 14>;
+            timeout-ms = <100>;
+        };
     };
 
     macros {
@@ -119,9 +125,9 @@
 
         solidworks {
             bindings = <
-  &kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9                &to 0  &trans  &trans  &trans  &trans  &trans
-       &kp TAB  &kp NUMBER_4        &kp N5  &kp NUMBER_6              &kp DOT  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3            &kp ENTER  &trans  &trans  &trans  &trans  &trans
+  &kp NUMBER_0  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9              &kp DEL  &trans  &trans  &trans  &trans  &trans
+       &kp TAB  &kp NUMBER_4        &kp N5  &kp NUMBER_6            &kp ENTER  &trans  &trans  &trans  &trans  &trans
+&kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3              &kp DOT  &trans  &trans  &trans  &trans  &trans
                                             &kp LEFT_ALT  &mt LCTRL BACKSPACE   &mo 0  &trans
             >;
         };
