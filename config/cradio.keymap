@@ -49,7 +49,7 @@
             key-positions = <9 8>;
         };
 
-        new_combo {
+        c7 {
             bindings = <&mo 4>;
             key-positions = <9 29>;
         };
