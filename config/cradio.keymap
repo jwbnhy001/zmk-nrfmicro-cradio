@@ -57,7 +57,7 @@
 
         c8 {
             bindings = <&to 0>;
-            key-positions = <15 14>;
+            key-positions = <14 13>;
             timeout-ms = <100>;
         };
     };
