@@ -57,12 +57,9 @@
 
         c8 {
             bindings = <&to 0>;
-            key-positions = <14 13>;
+            key-positions = <19 29>;
             timeout-ms = <100>;
         };
-    };
-
-    macros {
     };
 
     behaviors {
