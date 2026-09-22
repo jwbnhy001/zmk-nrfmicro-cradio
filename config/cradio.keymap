@@ -30,7 +30,7 @@
         };
 
         c4 {
-            bindings = <&kp DOUBLE_QUOTES>;
+            bindings = <&kp LS(ENTER)>;
             key-positions = <18 17>;
         };
 
@@ -47,6 +47,12 @@
         c7 {
             bindings = <&mo 4>;
             key-positions = <9 29>;
+        };
+
+        esc2 {
+            bindings = <&kp ESC>;
+            key-positions = <11 12>;
+            timeout-ms = <50>;
         };
     };
 
